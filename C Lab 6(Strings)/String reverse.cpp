@@ -8,8 +8,7 @@ int main()
 	int i=0;
 	while(s[i]!='\0')
 	i++;
-	
-	printf("%d",i);
+
 	for(int j=0;j<i/2;j++)
 	{
 		int t=s[i-j-1];
